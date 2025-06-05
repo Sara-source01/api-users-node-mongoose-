@@ -7,35 +7,46 @@ Permite criar, listar, atualizar e deletar usuários a partir de requisições H
 
 ## 🚀 Tecnologias Utilizadas
 
-- [Node.js](https://nodejs.org/)
-- [Express](https://expressjs.com/)
-- [MongoDB](https://www.mongodb.com/)
-- [Mongoose](https://mongoosejs.com/)
-- [Validator](https://www.npmjs.com/package/validator)
-- [CORS](https://www.npmjs.com/package/cors) *(para permitir acesso da interface HTML)*
-- [MongoDB Compass](https://www.mongodb.com/products/compass) *(para visualizar os dados)*
+- [Node.js](https://nodejs.org/) *(plataforma JavaScript para criar servidores e aplicações back-end)*
+- [Express](https://expressjs.com/) *(framework minimalista para criar rotas e gerenciar requisições HTTP)*
+- [MongoDB](https://www.mongodb.com/) *(banco de dados NoSQL usado para armazenar os dados dos usuários)*
+- [Mongoose](https://mongoosejs.com/) *(biblioteca que facilita a conexão e modelagem de dados no MongoDB)*
+- [dotenv](https://www.npmjs.com/package/dotenv) *(para carregar variáveis de ambiente de forma segura através do arquivo `.env`)*
+- [Validator](https://www.npmjs.com/package/validator) *(usada para validar campos, como verificar se um e-mail é válido)*
+- [CORS](https://www.npmjs.com/package/cors) *(para permitir acesso da interface HTML sem bloqueios de origem cruzada)*
+- [MongoDB Compass](https://www.mongodb.com/products/compass) *(interface gráfica para visualizar, buscar e editar os dados no MongoDB)*
+
+
 
 ---
 
 ## 📂 Estrutura do Projeto
 
+```plaintext
 mongoose-demo/
 ├── controllers/
 │   └── userController.js
+│
 ├── models/
 │   └── user.js
+│
 ├── routes/
 │   └── userRoutes.js
-├── node_modules/         
-├── index.html          
+│
+├── node_modules/
+│
+├── index.html
+│
 ├── .env
+│
 ├── server.js
+│
 ├── package.json
+│
 ├── package-lock.json
+│
 └── README.md
-
-
-
+```
 ---
 
 ## 📌 Funcionalidades da API
@@ -97,8 +108,10 @@ Clique na coleção users para ver os dados inseridos pela API ou HTML.
 
 Dessa forma, você pode acompanhar visualmente as alterações feitas pelos endpoints da API.
 
-📄 Licença
+---
+📄 Licença  
 Este projeto é livre para estudos e testes.
+
 
 ## 👩‍💻 Autor
 
