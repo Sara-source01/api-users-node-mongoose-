@@ -1,0 +1,19 @@
+# Ignorar pasta de dependências
+node_modules/
+
+# Arquivo de variáveis de ambiente (NUNCA subir!)
+.env
+
+# Arquivos de log
+*.log
+
+# Cache do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações pessoais do VS Code
+.vscode/
+
+# Pastas de build (caso use futuramente)
+dist/
+build/
